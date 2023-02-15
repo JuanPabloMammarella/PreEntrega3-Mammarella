@@ -19,7 +19,7 @@ h1 {
 
 .logo {
     width: 70px;
-    margin-left: 600px;
+    margin-left: 50%;
 }
 
 body {
@@ -54,32 +54,10 @@ h5 {
 
 .ambientacion {
     display: inline-block;
-    margin-left: 1000px;
+    margin-left: 80%;
     height: 200px;
     width: 200px;
-    margin-top: -350px;
-}
-
-
-.entradas {
-   position: absolute;
-   margin-left: -500px;
-}
-
-.principales {
-    position: absolute;
-    margin-left: -300px;
-  
-}
-
-.postres {
-    position: absolute;
-    margin-left: -100px;
-}
-
-.bebidas {
-    position: absolute;
-    margin-left: 100px;
+    margin-top: -25%;
 }
 
 .whatsapp {
