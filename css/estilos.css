@@ -1,0 +1,103 @@
+@keyframes texto {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+h1 {
+    animation-name: texto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    color: black;
+    background-color: rgb(252, 219, 178);
+}
+
+.logo {
+    width: 70px;
+    margin-left: 600px;
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(245, 245, 209), rgb(255, 211, 157));
+}
+
+.barra {
+    border: 2px black;
+    color: black;
+    column-fill: balance;
+    display: inline-block;
+    margin: 40px 65px;
+    padding: 2px;
+    font-size: x-large;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+h3 {
+    font-weight: normal;
+    margin-right: 350px;
+    margin-left: 30px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.ambientacion {
+    display: inline-block;
+    margin-left: 1000px;
+    height: 200px;
+    width: 200px;
+    margin-top: -350px;
+}
+
+
+.entradas {
+   position: absolute;
+   margin-left: -500px;
+}
+
+.principales {
+    position: absolute;
+    margin-left: -300px;
+  
+}
+
+.postres {
+    position: absolute;
+    margin-left: -100px;
+}
+
+.bebidas {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.whatsapp {
+    position: absolute;
+}
+
+.instagram {
+    position: absolute;
+    
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.empa {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
