@@ -37,7 +37,7 @@ body {
 }
 
 h2 {
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 20px;
 
 }
@@ -100,4 +100,9 @@ li {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.barrainicial {
+    background-color: rgb(237, 237, 179);
+    border: 3px solid black;
 }
