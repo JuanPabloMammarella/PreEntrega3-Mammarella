@@ -1,86 +1,96 @@
-@keyframes texto {
-    0% {
-        opacity: 0%;
-    }
-
-    100% {
-        opacity: 100%;
-    }
-}
-
-h1 {
-    animation-name: texto;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    text-align: center;
-    color: black;
-    background-color: rgb(252, 219, 178);
-}
-
-.logo {
-    width: 70px;
-    margin-left: 50%;
-}
-
 body {
-    background-image: linear-gradient(to left, rgb(245, 245, 209), rgb(255, 211, 157));
+  background-image: linear-gradient(to left, rgb(245, 245, 209), rgb(255, 211, 157));
+  margin-right: 5px;
 }
-
-.barra {
-    border: 2px black;
-    color: black;
-    column-fill: balance;
-    display: inline-block;
-    margin: 40px 65px;
-    padding: 2px;
-    font-size: x-large;
+@keyframes texto {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
-
-h2 {
-    margin-top: 55px;
-    margin-left: 20px;
-
+body h1 {
+  animation-name: texto;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  color: black;
+  background-color: rgb(252, 219, 178);
 }
-
-h3 {
-    font-weight: normal;
-    margin-right: 350px;
-    margin-left: 30px;
+body .logo {
+  width: 70px;
+  margin-left: 50%;
 }
-
-h5 {
+body .barra {
+  border: 2px black;
+  color: black;
+  column-fill: balance;
+  display: inline-block;
+  margin: 40px 65px;
+  padding: 2px;
+  font-size: x-large;
+}
+body h5 {
+  text-align: center;
+}
+body li {
+  list-style-type: none;
+  text-align: center;
+}
+body .empa {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+body .barrainicial {
+  background-color: rgb(237, 237, 179);
+  border: 3px solid black;
+}
+@media (max-width: 650px) {
+  body h1 {
     text-align: center;
-}
-
-.ambientacion {
-    display: inline-block;
-    margin-left: 80%;
-    height: 200px;
-    width: 200px;
-    margin-top: -25%;
-}
-
-.whatsapp {
-    position: absolute;
-}
-
-.instagram {
-    position: absolute;
-    
-}
-
-li {
-    list-style-type: none;
+  }
+  body .barrainicial p {
     text-align: center;
-}
-
-.empa {
+  }
+  body h2 {
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+  }
+  body h3 {
+    text-align: center;
+  }
+}
+body main {
+  width: 100vw;
+}
+body main h2 {
+  margin-top: 55px;
+  margin-left: 20px;
+}
+body main h3 {
+  font-weight: normal;
+  text-align: center;
+  width: 90vw;
+}
+body .entradas {
+  width: 90vw;
+  margin: 5vw;
+}
+body .empanadas {
+  width: 80vw;
+  margin: 10vw;
+}
+body .container-fluid {
+  text-align: center;
+  font-size: larger;
 }
 
-.barrainicial {
-    background-color: rgb(237, 237, 179);
-    border: 3px solid black;
+footer .whatsapp {
+  position: absolute;
 }
+footer .instagram {
+  position: absolute;
+}
+
+/*# sourceMappingURL=estilos.css.map */
